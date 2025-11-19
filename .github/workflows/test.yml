@@ -20,8 +20,8 @@ jobs:
 
       - name: Commit
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "1234alexis12"
+          git config user.email "mango.ticlla@gmail.com"
           git add archivo.txt
           if git diff --cached --quiet; then
             echo "No hay cambios."
